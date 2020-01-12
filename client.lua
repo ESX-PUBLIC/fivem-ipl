@@ -1,5 +1,5 @@
 Citizen.CreateThread(function()
-	LoadMpDlcMaps() -- required to load heist ipl?
+	OnEnterMp() -- required to load heist ipl?
 	RequestAllIpls()
 end)
 
